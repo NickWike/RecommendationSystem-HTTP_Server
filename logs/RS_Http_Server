@@ -1,0 +1,21 @@
+, "75350", "75366"], "checked": "1"}>`[2020-04-21 13:24:55,095] - INFO - 192.168.0.100 - `GET ~ /product/car/get_shop_car_items.action ~ HTTP/1.1 ~ /` - OK - `1 ~ 1.196ms ~ <{"user_id": "00000000002"}>`
+[2020-04-21 13:25:01,121] - INFO - 192.168.0.100 - `GET ~ /product/car/checked_car_items.action ~ HTTP/1.1 ~ /` - OK - `1 ~ 176.995ms ~ <{"user_id": "00000000002", "items": ["88143", "10618", "47547", "75350", "75366"], "checked": "0"}>`
+[2020-04-21 13:25:16,234] - INFO - 192.168.0.100 - `GET ~ /product/car/checked_car_items.action ~ HTTP/1.1 ~ /` - OK - `1 ~ 146.933ms ~ <{"user_id": "00000000002", "items": ["10618"], "checked": "1"}>`
+[2020-04-21 13:25:17,583] - INFO - 192.168.0.100 - `GET ~ /product/car/checked_car_items.action ~ HTTP/1.1 ~ /` - OK - `1 ~ 130.401ms ~ <{"user_id": "00000000002", "items": ["47547"], "checked": "1"}>`
+[2020-04-21 13:25:19,846] - INFO - 192.168.0.100 - `GET ~ /product/car/remove_items_to_car.action ~ HTTP/1.1 ~ /` - OK - `1 ~ 97.517ms ~ <{"user_id": "00000000002", "items": "47547;10618"}>`
+[2020-04-21 13:25:25,009] - INFO - 192.168.0.100 - `GET ~ /product/car/get_shop_car_items.action ~ HTTP/1.1 ~ /` - OK - `1 ~ 1.199ms ~ <{"user_id": "00000000002"}>`
+[2020-04-21 13:25:30,773] - INFO - 192.168.0.100 - `POST ~ /product/car/add_to_car.action ~ HTTP/1.1 ~ /` - OK - `1 ~ 146.086ms ~ <{"user_id": "00000000002", "product_id": "75350", "checked": "0", "quantity": "1"}>`
+[2020-04-21 13:25:34,254] - INFO - 192.168.0.100 - `POST ~ /product/car/add_to_car.action ~ HTTP/1.1 ~ /` - OK - `1 ~ 142.124ms ~ <{"user_id": "00000000002", "product_id": "88143", "checked": "0", "quantity": "1"}>`
+[2020-04-21 13:25:36,836] - INFO - 192.168.0.100 - `GET ~ /product/car/checked_car_items.action ~ HTTP/1.1 ~ /` - OK - `1 ~ 56.428ms ~ <{"user_id": "00000000002", "items": ["75350"], "checked": "1"}>`
+[2020-04-21 13:25:40,027] - INFO - 192.168.0.100 - `POST ~ /product/car/add_to_car.action ~ HTTP/1.1 ~ /` - OK - `1 ~ 57.963ms ~ <{"user_id": "00000000002", "product_id": "88143", "checked": "0", "quantity": "1"}>`
+[2020-04-21 13:25:40,577] - INFO - 192.168.0.100 - `POST ~ /product/car/add_to_car.action ~ HTTP/1.1 ~ /` - OK - `1 ~ 150.463ms ~ <{"user_id": "00000000002", "product_id": "88143", "checked": "0", "quantity": "1"}>`
+[2020-04-21 13:25:40,748] - INFO - 192.168.0.100 - `POST ~ /product/car/add_to_car.action ~ HTTP/1.1 ~ /` - OK - `1 ~ 55.052ms ~ <{"user_id": "00000000002", "product_id": "88143", "checked": "0", "quantity": "1"}>`
+[2020-04-21 13:25:41,164] - INFO - 192.168.0.100 - `POST ~ /product/car/add_to_car.action ~ HTTP/1.1 ~ /` - OK - `1 ~ 54.999ms ~ <{"user_id": "00000000002", "product_id": "88143", "checked": "0", "quantity": "1"}>`
+[2020-04-21 13:25:42,024] - INFO - 192.168.0.100 - `POST ~ /product/car/add_to_car.action ~ HTTP/1.1 ~ /` - OK - `1 ~ 143.764ms ~ <{"user_id": "00000000002", "product_id": "88143", "checked": "0", "quantity": "1"}>`
+[2020-04-21 13:25:42,574] - INFO - 192.168.0.100 - `POST ~ /product/car/add_to_car.action ~ HTTP/1.1 ~ /` - OK - `1 ~ 162.217ms ~ <{"user_id": "00000000002", "product_id": "88143", "checked": "0", "quantity": "1"}>`
+[2020-04-21 13:25:42,923] - INFO - 192.168.0.100 - `POST ~ /product/car/add_to_car.action ~ HTTP/1.1 ~ /` - OK - `1 ~ 59.622ms ~ <{"user_id": "00000000002", "product_id": "88143", "checked": "0", "quantity": "1"}>`
+[2020-04-21 13:25:43,339] - INFO - 192.168.0.100 - `POST ~ /product/car/add_to_car.action ~ HTTP/1.1 ~ /` - OK - `1 ~ 52.098ms ~ <{"user_id": "00000000002", "product_id": "88143", "checked": "0", "quantity": "1"}>`
+[2020-04-21 13:25:44,355] - INFO - 192.168.0.100 - `GET ~ /product/car/checked_car_items.action ~ HTTP/1.1 ~ /` - OK - `1 ~ 143.252ms ~ <{"user_id": "00000000002", "items": ["88143"], "checked": "1"}>`
+[2020-04-21 13:25:47,891] - INFO - 192.168.0.100 - `GET ~ /product/car/checked_car_items.action ~ HTTP/1.1 ~ /` - OK - `1 ~ 64.885ms ~ <{"user_id": "00000000002", "items": ["88143"], "checked": "0"}>`
+[2020-04-21 13:25:49,617] - INFO - 192.168.0.100 - `GET ~ /product/car/checked_car_items.action ~ HTTP/1.1 ~ /` - OK - `1 ~ 57.722ms ~ <{"user_id": "00000000002", "items": ["88143"], "checked": "1"}>`
+[2020-04-21 13:25:50,934] - INFO - 192.168.0.100 - `GET ~ /product/car/checked_car_items.action ~ HTTP/1.1 ~ /` - OK - `1 ~ 137.289ms ~ <{"user_id": "00000000002", "items": ["88143"

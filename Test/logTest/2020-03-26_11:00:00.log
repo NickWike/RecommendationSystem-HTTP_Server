@@ -1,0 +1,5 @@
+[2020-03-26 11:18:57,160][INFO] - 192.168.0.105 - "GET /order/pull_order_info.action HTTP/1.1 /" - OK - 1 2.655ms ({'user_id': '00000000001', 'items': [], 'order_from': 0})
+[2020-03-26 11:18:57,218][INFO] - 192.168.0.105 - "POST /product/car/add_to_car.action HTTP/1.1 /" - OK - 1 55.235ms ({'user_id': '00000000001', 'product_id': '6394', 'checked': '1', 'quantity': '1'})
+[2020-03-26 11:19:04,874][INFO] - 192.168.0.105 - "GET /order/pull_order_info.action HTTP/1.1 /" - OK - 1 2.592ms ({'user_id': '00000000001', 'items': [6394], 'order_from': 0})
+[2020-03-26 11:19:04,979][INFO] - 192.168.0.105 - "POST /product/car/add_to_car.action HTTP/1.1 /" - OK - 1 100.863ms ({'user_id': '00000000001', 'product_id': '5656', 'checked': '1', 'quantity': '1'})
+[2020-03-26 11:19:24,077][INFO] - 192.168.0.105 - "GET /order/pull_order_info.action HTTP/1.1 /" - OK - 1 2.354ms ({'user_id': '00000000001', 'items': [6394, 5656], 'order_from': 0})

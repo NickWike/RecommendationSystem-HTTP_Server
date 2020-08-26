@@ -1,0 +1,3 @@
+[2020-03-27 22:03:22,992][INFO] - 192.168.0.105 - "GET /product/search/get_items.action HTTP/1.1 /" - OK - 1 88.121ms ({'user_id': '00000000001', 'client_args': {'order_by': 'id', 'page': '2', 'keyword': '老铜扣', 'reverse': 'false'}, 'keyword_tokenizer': ['老铜扣'], 'items': ['00000082426']})
+[2020-03-27 22:03:23,971][INFO] - 192.168.0.105 - "GET /product/search/get_items.action HTTP/1.1 /" - OK - 1 85.763ms ({'user_id': '00000000001', 'client_args': {'order_by': 'id', 'page': '3', 'keyword': '老铜扣', 'reverse': 'false'}, 'keyword_tokenizer': ['老铜扣'], 'items': []})
+[2020-03-27 22:03:52,414][INFO] - 192.168.0.105 - "GET /product/car/get_shop_car_items.action HTTP/1.1 /" - OK - 1 0.979ms ({'user_id': '00000000001'})
